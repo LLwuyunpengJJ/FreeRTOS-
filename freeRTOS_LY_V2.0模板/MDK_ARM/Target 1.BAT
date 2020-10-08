@@ -1,0 +1,31 @@
+SET PATH=C:\Keil_v5\ARM\ARMCC\Bin;C:\Program Files\VanDyke Software\Clients\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\MentorGraphics\9.5PADS\SDD_HOME\common\win32\bin;C:\MentorGraphics\9.5PADS\SDD_HOME\common\win32\lib;C:\MentorGraphics\9.5PADS\MGC_HOME.ixn\bin;C:\MentorGraphics\9.5PADS\MGC_HOME.ixn\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\Fiddler
+SET CPU_TYPE=STM32F103RC
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=Target 1
+SET CPU_CLOCK=0x00B71B00
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\start_task.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\semaphore_init.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\time_check_task.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\main.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\sys.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\delay.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\uart.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\timer.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\croutine.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\event_groups.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\list.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\queue.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\stream_buffer.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\tasks.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\timers.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\heap_4.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\port.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\misc.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\stm32f10x_dma.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\stm32f10x_gpio.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\stm32f10x_rcc.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\stm32f10x_tim.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\stm32f10x_usart.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmAsm" --Via "..\..\..\..\..\lyms_f420_out\startup_stm32f10x_hd._ia"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\..\..\..\..\lyms_f420_out\system_stm32f10x.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmLink" --Via "..\..\..\..\..\LYMS_F420_OUT\FIST.lnp"

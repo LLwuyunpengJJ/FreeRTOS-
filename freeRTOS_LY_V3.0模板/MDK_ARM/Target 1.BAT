@@ -1,0 +1,35 @@
+SET PATH=C:\Keil_v5\ARM\ARMCC\Bin;C:\Program Files\VanDyke Software\Clients\;C:\MentorGraphics\9.5PADS\SDD_HOME\common\win32\bin;C:\MentorGraphics\9.5PADS\SDD_HOME\common\win32\lib;C:\MentorGraphics\9.5PADS\MGC_HOME.ixn\bin;C:\MentorGraphics\9.5PADS\MGC_HOME.ixn\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\bin;C:\Program Files (x86)\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\bin;C:\Program Files (x86)\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\bin;C:\Keil_v5\ARM\GCC\Sourcery_CodeBench_Lite_for_ARM_EABI\bin;C:\Program Files (x86)\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Program Files (x86)\CodeSourcery\Sourcery_CodeBench_Lite_for_ARM_EABI\bin
+SET CPU_TYPE=STM32F103ZE
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=Target 1
+SET CPU_CLOCK=0x00B71B00
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\start_task_1.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\wdg_task_1.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\check_task.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\semaphore_init_1.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\main.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\sys.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\delay.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\uart.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\timer.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\watchdog.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\croutine.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\event_groups.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\list.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\queue.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\stream_buffer.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\tasks.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\timers.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\heap_4.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\port.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\misc.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\stm32f10x_dma.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\stm32f10x_gpio.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\stm32f10x_iwdg.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\stm32f10x_rcc.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\stm32f10x_tim.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\stm32f10x_usart.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmAsm" --Via ".\objects\startup_stm32f10x_hd._ia"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\system_stm32f10x.__i"
+"C:\Keil_v5\ARM\ARMCC\Bin\ArmLink" --Via ".\Objects\FIST.lnp"
+fromelf --bin .\Objects\FIST.axf -o .\BIN\LY_F420_B2.4_S5.4_R121.X2.bin
